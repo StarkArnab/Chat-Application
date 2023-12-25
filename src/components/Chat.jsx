@@ -5,7 +5,7 @@ import { db } from "../firebase";
 import SendMessage from "./SendMessage";
 
 const style = {
-  main: `flex flex-col p-[10px] relative`,
+  main: `flex flex-col justify-between p-[10px] h-screen overflow-auto flex-grow pb-[50px]`,
 };
 
 const Chat = () => {
@@ -21,6 +21,9 @@ const Chat = () => {
         messages.push({ ...doc.data(), id: doc.id });
       });
       setMessages(messages);
+      setTimeout(() => {
+        scroll.current.scrollIntoView({ behavior: "smooth" });
+      }, 0);
     });
     return () => unsubscribe();
   }, []);

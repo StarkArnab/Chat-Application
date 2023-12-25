@@ -1,6 +1,6 @@
 ## Chat OP
 
-This is a group chatting application where multipel users can simultaneously converse with each other on this application and can login or signin using firebase-auth with their valid email id.
+This is a group chatting application where multiple users can simultaneously converse with each other on this application and can login or signin using firebase-auth with their valid email id.
 
 ## How to run this locally on your machine
 
