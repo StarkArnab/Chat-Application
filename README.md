@@ -12,4 +12,12 @@ VITE_apiKey
 ## Flow of the application
 
 You will first be greeted with this page
-<img src='https://github.com/StarkArnab/Chat-Application/assets/101460680/6411aa4a-c3f1-4b1f-bff4-58981984456a' alt = 'homepage' />
+<img src='https://github.com/StarkArnab/Chat-Application/assets/101460680/fa043ab6-59da-4a10-8f52-de49ae61c7ad' alt = 'homepage' />
+
+You will click on SignIn with Google, then after logging in with one of your google account you will be redirected to your chat window where you can send and receive texts.
+<img  src='https://github.com/StarkArnab/Chat-Application/assets/101460680/4e7bbedf-eea1-4660-a304-1c223cdf369e'  alt ='Chatting Window'/>
+
+## Deployment Link
+
+Here you can try it out by yourself
+<a href='https://chat-op.vercel.app/'>chat-op.vercel.app</a>
